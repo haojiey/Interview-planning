@@ -19,6 +19,6 @@
 
 ## html 基础
 
-<img src="https://github.com/haojiey/Interview-planning/blob/main/html篇/html篇.jpg?" alt="html篇" width="70%" />
+![](https://github.com/haojiey/Interview-planning/blob/main/html篇/html篇.jpg)
 
 [html篇基础试题](https://github.com/haojiey/Interview-planning/tree/main/html%E7%AF%87)
