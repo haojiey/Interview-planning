@@ -34,6 +34,6 @@
 
 ## javascript篇
 
-[javascript篇基础试题](https://github.com/haojiey/Interview-planning/tree/main/javascript.md)
+[javascript篇基础试题](https://github.com/haojiey/Interview-planning/blob/main/JavaScript%E7%AF%87/javascript.md)
 
-![](https://github.com/haojiey/Interview-planning/blob/main/javascript篇/javascript.jpg)
+![](https://github.com/haojiey/Interview-planning/blob/main/JavaScript%E7%AF%87/javascript.jpg)
