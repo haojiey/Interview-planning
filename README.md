@@ -28,7 +28,7 @@
 
 ## css篇
 
-[css篇基础试题](https://github.com/haojiey/Interview-planning/tree/main/css.md)
+[css篇基础试题](https://github.com/haojiey/Interview-planning/blob/main/css%E7%AF%87/css.md)
 
 ![](https://github.com/haojiey/Interview-planning/blob/main/css篇/css.jpg)
 
