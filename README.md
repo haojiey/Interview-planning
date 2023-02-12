@@ -22,7 +22,7 @@
 
 ## html篇
 
-[html篇基础试题](https://github.com/haojiey/Interview-planning/tree/main/html.md)
+[html篇基础试题](https://github.com/haojiey/Interview-planning/blob/main/html%E7%AF%87/html.md)
 
 ![](https://github.com/haojiey/Interview-planning/blob/main/html篇/html.jpg)
 
