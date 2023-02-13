@@ -9,7 +9,8 @@
  - html篇
  - css篇
  - javascript篇
- - vue
+ - vue2
+ - vue3
  - react
  - 计算机网络篇
  - 浏览器篇
@@ -37,3 +38,10 @@
 [javascript篇基础试题](https://github.com/haojiey/Interview-planning/blob/main/JavaScript%E7%AF%87/javascript.md)
 
 ![](https://github.com/haojiey/Interview-planning/blob/main/JavaScript%E7%AF%87/javascript.jpg)
+
+
+## vue2.x篇
+
+[vue2.x篇基础试题](https://github.com/haojiey/Interview-planning/blob/main/vue2.x%E7%AF%87/vue2.md)
+
+![](https://github.com/haojiey/Interview-planning/blob/main/vue2.x%E7%AF%87/vue2.jpg)
