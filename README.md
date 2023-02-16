@@ -50,4 +50,9 @@
 
 [vue3.x篇基础试题](https://github.com/haojiey/Interview-planning/blob/main/vue3.x%E7%AF%87/vue3.md)
 
-![](https://github.com/haojiey/Interview-planning/blob/main/vue3.x%E7%AF%87/vue3.png)
+![](https://github.com/haojiey/Interview-planning/blob/main/vue3.x%E7%AF%87/vue3.jpg)
+
+
+
+
+
