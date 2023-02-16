@@ -321,8 +321,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 *   isProxy: 检查一个对象是否是由 `reactive` 或者 `readonly` 方法创建的代理
 
-11.vue3的常用 Composition API有哪些？
------------------------------
+## 11.vue3的常用 Composition API有哪些？
 
 官方文档: [介绍 | Vue.js](https://v3.cn.vuejs.org/guide/composition-api-introduction.html "介绍 | Vue.js")
 
@@ -522,8 +521,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
   })
   ```
 
-13.toRef 代表什么意思
---------
+## 12.toRef 代表什么意思
 
 *   作用：创建一个 ref 对象，其value值指向另一个对象中的某个属性。
 
@@ -533,15 +531,13 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 *   扩展：`toRefs` 与`toRef`功能一致，但可以批量创建多个 ref 对象，语法：`toRefs(person)`
 
-14.toRaw 代表什么意思
------------------
+## 13.toRaw 代表什么意思
 
 *   作用：将一个由`reactive`生成的**响应式对象**转为**普通对象**。
 
 *   使用场景：用于读取响应式对象对应的普通对象，对这个普通对象的所有操作，不会引起页面更新。
 
-15.provide 与 inject
-------------------
+## 14.provide 与 inject
 
 ![](https://img-blog.csdnimg.cn/img_convert/b40f40b6d0ea19db114649b400d8e29f.png)
 
@@ -573,7 +569,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
      }
      ```
 
-16、vue3为什么要添加新的Composition API，它可以解决哪些问题
+15、vue3为什么要添加新的Composition API，它可以解决哪些问题
 -----------------------------
 
 在 Vue2.0 中，随着功能的增加，组件越来越复杂，维护起来也越来越难，而难以维护的根本原因是 Vue 的 API 设计迫使开发者使用监视、计算、方法 Option 组织代码，而不是实际的业务逻辑。
@@ -584,7 +580,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 二是实现代码的逻辑提取和重用，当然mixin逻辑提取和重用也可以实现，但就像我之前说的，多个mixin在作用于同一个组件时，很难看出mixin的属性，来源不明确，另外，多个mixin的属性存在变量命名冲突的风险。而 Composition API 恰恰解决了这两个问题。
 
-17、什么是hook？什么是自定义hook函数？
+16、什么是hook？什么是自定义hook函数？
 -----------------------
 
 *   什么是hook？—— 本质是一个函数，把setup函数中使用的Composition API进行了封装。
@@ -593,7 +589,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 *   自定义hook的优势: 复用代码, 让setup中的逻辑更清楚易懂。
 
-18、都说 Composition API 和 React Hook 很像，请问他们的区别是什么？
+17、都说 Composition API 和 React Hook 很像，请问他们的区别是什么？
 ------------------------------------------------
 
 从 React Hook 从实现的角度来看，React Hook 是基于 useState 的调用顺序来确定下一个 re 渲染时间状态从哪个 useState 开始，所以有以下几个限制
@@ -610,11 +606,9 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 虽然Compoliton API看起来像React Hook来使用，但它的设计思路也是React Hook的参考。
 
-19、Options API 存在的问题是什么？Composition API 的优势有哪些？
-===============================================
+## 18、Options API 存在的问题是什么？Composition API 的优势有哪些？
 
-1.Options API 存在的问题
--------------------
+### 1.Options API 存在的问题
 
 使用传统OptionsAPI中，新增或者修改一个需求，就需要分别在data，methods，computed里修改 。
 
@@ -624,10 +618,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 ![](https://img-blog.csdnimg.cn/img_convert/74b4733cb731be4bec2c3afa812fdbe4.gif)
 
-
-
-2.Composition API 的优势
----------------------
+### 2.Composition API 的优势
 
 我们可以更加优雅的组织我们的代码，函数。让相关功能的代码更加有序的组织在一起。
 
@@ -637,13 +628,9 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 ![](https://img-blog.csdnimg.cn/img_convert/f2f235b92bce00d7e8459b1900d3ee7e.gif)
 
+## 19、vue3有哪些新的组件？
 
-
-20、vue3有哪些新的组件？
-===============
-
-1.Fragment
-----------
+### 1.Fragment
 
 *   在Vue2中: 组件必须有一个根标签
 
@@ -651,8 +638,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
 
 *   好处: 减少标签层级, 减小内存占用
 
-2.Teleport
-----------
+### 2.Teleport
 
 * 什么是Teleport？—— `Teleport` 是一种能够将我们的**组件html结构**移动到指定位置的技术。
 
@@ -667,8 +653,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
   </teleport>
   ```
 
-3.Suspense
-----------
+### 3.Suspense
 
 * 等待异步组件时渲染一些额外内容，让应用有更好的用户体验
 
@@ -699,7 +684,7 @@ proxy的性能本来比defineproperty好，proxy可以拦截属性的访问、�
     </template>
     ```
 
-21.vue2和vue3的全局 API 和配置区别？
+20.vue2和vue3的全局 API 和配置区别？
 --------------------------
 
 * Vue 2.x 有许多全局 API 和配置。
